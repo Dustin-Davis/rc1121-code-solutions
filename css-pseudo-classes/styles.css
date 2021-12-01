@@ -8,7 +8,7 @@ button:hover {
   color: white;
 }
 
-th:nth-child(n) {
+th {
   background-color: black;
   color: white;
 }
