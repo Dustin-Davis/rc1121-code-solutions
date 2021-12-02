@@ -12,8 +12,10 @@ button {
   border: white;
   background-color: tomato;
   color: white;
-  margin-left: 26rem;
+  margin-left: 24.5rem;
   height: 2rem;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 input {
@@ -22,16 +24,18 @@ input {
   width: 30rem;
   margin-bottom: 15px;
   height: 2rem;
+  border-style: outset;
+  border-width: thin;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
   text-transform: capitalize;
 }
 
 select {
   width: 30rem;
-  background-color: lightgrey;
+  background-color: whitesmoke;
   margin-bottom: 15px;
   border-radius: 4px;
   height: 2rem;
@@ -44,5 +48,11 @@ form {
 
 label {
   letter-spacing: -1px;
-  font-weight: bold;
+  font-weight: 549;
+  font-size: 0.9rem;
+  margin: 5px;
+}
+
+input:placeholder-shown {
+  text-indent: 5px;
 }
