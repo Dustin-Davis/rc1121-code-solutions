@@ -7,13 +7,12 @@
 
 .row {
   display: flex;
-  justify-content: center;
-  align-content: center;
   line-height: 26px;
 }
 
 .column-half {
-  margin: 0.5rem;
+  width: 25%;
+  margin: 1rem;
 }
 
 button {
@@ -31,4 +30,8 @@ button {
 
 p {
   font-size: 20px;
+}
+
+.button {
+  text-align: center;
 }
