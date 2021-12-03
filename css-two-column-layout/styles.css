@@ -1,0 +1,37 @@
+.container {
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  line-height: 26px;
+}
+
+.column-half {
+  width: 25%;
+  margin: 1rem;
+}
+
+button {
+  border-color: orangered;
+  color: orangered;
+  background-color: white;
+  padding: 10px 35px 10px 35px;
+}
+
+.column-full {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.button {
+  text-align: center;
+}
