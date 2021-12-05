@@ -1,0 +1,188 @@
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+nav {
+  position: relative;
+  left: 310px;
+}
+
+.head {
+  border-bottom-style: solid;
+  border-width: medium;
+  color: lightgray;
+}
+
+.logo-blue {
+  position: relative;
+  top: 40px;
+  left: 30px;
+}
+
+.logo {
+  height: 30px;
+}
+
+.nav-list {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.nav-list .a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Contact-us {
+  height: 45px;
+  width: 100px;
+  font-size: medium;
+  background-color: #39576a;
+  color: white;
+  border-radius: 7px;
+}
+
+.hero-pic {
+  background-image: url(images/hero.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 1250px;
+  position: relative;
+  left: 25px;
+  right: 25px;
+}
+
+.hero-text {
+  position: absolute;
+  max-width: 475px;
+  left: 100px;
+  top: 35px;
+  font-size: larger;
+  color: white;
+  line-height: 1.75rem;
+}
+
+.get-started {
+  height: 50px;
+  width: 140px;
+  font-size: medium;
+  background-color: #39576a;
+  color: white;
+  border-radius: 7px;
+}
+
+.clinicians-background {
+  position: relative;
+  height: 400px;
+  width: 1300px;
+  font-size: larger;
+  background-color: #fafafa;
+  color: #888;
+}
+
+.column-full {
+  position: absolute;
+  text-align: center;
+  left: 200px;
+  right: 200px;
+}
+
+.column-one {
+  position: absolute;
+  left: 125px;
+  top: 145px;
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+.column-two {
+  position: absolute;
+  right: 150px;
+  top: 145px;
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+.get-started-2 {
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+
+.ready-to-learn {
+  color: #888;
+  font-size: large;
+}
+
+.information {
+  position: relative;
+  background-color: #525351;
+  height: 400px;
+}
+
+.column-three {
+  position: absolute;
+  left: 65px;
+  top: 65px;
+  list-style-type: none;
+  color: white;
+  line-height: 2rem;
+  font-size: large;
+}
+
+.column-four {
+  position: absolute;
+  top: 40px;
+  right: 400px;
+  list-style-type: none;
+  line-height: 2rem;
+  color: white;
+  font-size: large;
+}
+
+.column-five {
+  position: absolute;
+  top: 40px;
+  right: 140px;
+  list-style-type: none;
+  line-height: 2rem;
+  color: white;
+  font-size: large;
+}
+
+.logo-white {
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.privacy {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  color: #525351;
+}
+
+.contact {
+  position: absolute;
+  left: 300px;
+  top: 50px;
+  color: #525351;
+}
+
+.bottom {
+  height: 150px;
+}
