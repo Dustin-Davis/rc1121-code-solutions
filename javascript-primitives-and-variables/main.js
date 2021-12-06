@@ -5,9 +5,9 @@ console.log('value of isCool:', isCool);
 var totalPets = 3;
 console.log('value of totalPets:', totalPets);
 
-console.log('typeof fullName:', typeof 'Dustin Davis');
-console.log('type isCool:', typeof true);
-console.log('typeof totalPets:', typeof 3);
+console.log('typeof fullName:', typeof fullName);
+console.log('type isCool:', typeof isCool);
+console.log('typeof totalPets:', typeof totalPets);
 
 var unknown = null;
 console.log('value of unknown:', unknown);
