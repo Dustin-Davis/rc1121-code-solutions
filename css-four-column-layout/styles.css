@@ -1,0 +1,30 @@
+.container {
+  max-width: 1700px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Barlow', sans-serif;
+  background-color: #f7f8fa;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header {
+  display: flex;
+  font-size: x-large;
+}
+
+.screen {
+  height: 450px;
+}
+
+.icon {
+  height: 75px;
+}
+
+.column-one-fourth {
+  flex-basis: 25%;
+  text-align: center;
+}
