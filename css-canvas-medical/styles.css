@@ -1,0 +1,149 @@
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.row-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column-quarter {
+  margin-top: 45px;
+}
+
+.logo {
+  height: 30px;
+}
+
+.nav-list {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.nav-list .a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.Contact-us {
+  height: 45px;
+  width: 100px;
+  font-size: medium;
+  background-color: #39576a;
+  color: white;
+  border-radius: 7px;
+}
+
+.row-hero {
+  background-image: url(images/hero.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 1250px;
+  margin: auto;
+}
+
+.column-hero {
+  max-width: 475px;
+  font-size: larger;
+  color: white;
+  line-height: 1.75rem;
+  margin-left: 70px;
+}
+
+.get-started {
+  height: 50px;
+  width: 140px;
+  font-size: medium;
+  background-color: #39576a;
+  color: white;
+  border-radius: 7px;
+}
+
+.clinicians-background {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 400px;
+  width: 1300px;
+  font-size: larger;
+  background-color: #fafafa;
+  color: #888;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.column-full {
+  text-align: center;
+}
+
+.column-half {
+  text-align: center;
+  flex-basis: 50%;
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+.row-learn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.get-started-2 {
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.ready-to-learn {
+  color: #888;
+  font-size: large;
+}
+
+.information {
+  display: flex;
+  justify-content: space-around;
+  background-color: #525351;
+  height: 400px;
+}
+
+.column-third {
+  flex-basis: 33%;
+  color: white;
+  line-height: 2rem;
+  font-size: large;
+  align-content: center;
+  margin-top: 50px;
+}
+
+.logo-white {
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  color: #525351;
+}
+
+.bottom {
+  display: flex;
+  gap: 25px;
+  margin-left: 75px;
+  flex-basis: 25%;
+  height: 150px;
+}
