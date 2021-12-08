@@ -6,26 +6,17 @@
 
 .row {
   display: flex;
-  position: relative;
   padding-top: 10px;
   padding-bottom: 15px;
 }
 
-nav {
-  position: relative;
-  left: 310px;
+.row-top {
+  display: flex;
+  justify-content: space-between;
 }
 
-.head {
-  border-bottom-style: solid;
-  border-width: medium;
-  color: lightgray;
-}
-
-.logo-blue {
-  position: relative;
-  top: 40px;
-  left: 30px;
+.column-quarter {
+  margin-top: 45px;
 }
 
 .logo {
@@ -56,24 +47,20 @@ nav {
   border-radius: 7px;
 }
 
-.hero-pic {
+.row-hero {
   background-image: url(images/hero.jpg);
   background-size: cover;
   height: 500px;
   width: 1250px;
-  position: relative;
-  left: 25px;
-  right: 25px;
+  margin: auto;
 }
 
-.hero-text {
-  position: absolute;
+.column-hero {
   max-width: 475px;
-  left: 100px;
-  top: 35px;
   font-size: larger;
   color: white;
   line-height: 1.75rem;
+  margin-left: 70px;
 }
 
 .get-started {
@@ -86,41 +73,41 @@ nav {
 }
 
 .clinicians-background {
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   height: 400px;
   width: 1300px;
   font-size: larger;
   background-color: #fafafa;
   color: #888;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.list {
+  list-style-type: none;
 }
 
 .column-full {
-  position: absolute;
   text-align: center;
-  left: 200px;
-  right: 200px;
 }
 
-.column-one {
-  position: absolute;
-  left: 125px;
-  top: 145px;
+.column-half {
+  text-align: center;
+  flex-basis: 50%;
   list-style-type: none;
   line-height: 3rem;
 }
 
-.column-two {
-  position: absolute;
-  right: 150px;
-  top: 145px;
-  list-style-type: none;
-  line-height: 3rem;
+.row-learn {
+  display: flex;
+  justify-content: space-between;
 }
 
 .get-started-2 {
-  position: absolute;
-  right: 0;
-  top: 25px;
+  margin-right: 40px;
+  margin-top: 20px;
 }
 
 .ready-to-learn {
@@ -129,39 +116,19 @@ nav {
 }
 
 .information {
-  position: relative;
+  display: flex;
+  justify-content: space-around;
   background-color: #525351;
   height: 400px;
 }
 
-.column-three {
-  position: absolute;
-  left: 65px;
-  top: 65px;
-  list-style-type: none;
+.column-third {
+  flex-basis: 33%;
   color: white;
   line-height: 2rem;
   font-size: large;
-}
-
-.column-four {
-  position: absolute;
-  top: 40px;
-  right: 400px;
-  list-style-type: none;
-  line-height: 2rem;
-  color: white;
-  font-size: large;
-}
-
-.column-five {
-  position: absolute;
-  top: 40px;
-  right: 140px;
-  list-style-type: none;
-  line-height: 2rem;
-  color: white;
-  font-size: large;
+  align-content: center;
+  margin-top: 50px;
 }
 
 .logo-white {
@@ -169,20 +136,14 @@ nav {
   margin-bottom: 20px;
 }
 
-.privacy {
-  position: absolute;
-  left: 50px;
-  top: 50px;
-  color: #525351;
-}
-
-.contact {
-  position: absolute;
-  left: 300px;
-  top: 50px;
+.footer {
   color: #525351;
 }
 
 .bottom {
+  display: flex;
+  gap: 25px;
+  margin-left: 75px;
+  flex-basis: 25%;
   height: 150px;
 }
