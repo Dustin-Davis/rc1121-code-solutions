@@ -1,0 +1,38 @@
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: DM Sans, sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header {
+  font-size: xx-large;
+}
+
+.pic {
+  height: 350px;
+}
+
+.column-one-fifth {
+  flex-basis: calc(100% / 5);
+}
+
+.light-text {
+  color: lightgray;
+  font-size: medium;
+}
+
+.money-text {
+  color: lightgray;
+  font-size: medium;
+  text-decoration: line-through;
+}
+
+.money {
+  background-color: rgb(252, 228, 231);
+}
