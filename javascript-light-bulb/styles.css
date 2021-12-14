@@ -1,0 +1,33 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 1250px;
+}
+
+.button {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: inline-block;
+  border-style: none;
+}
+
+.button.off {
+  background-color: #252525;
+  box-shadow: -10px -15px 15px black;
+}
+
+.button.on {
+  background-color: #faea84;
+  box-shadow: 0 0 3px 5px yellow;
+}
+
+.back.off {
+  background-color: #111;
+}
+
+.back.on {
+  background-color: #fef9f1;
+}
