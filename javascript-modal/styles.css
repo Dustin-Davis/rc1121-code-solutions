@@ -1,0 +1,38 @@
+.row {
+  display: flex;
+  font-family: sans-serif;
+}
+
+.open {
+  width: 225px;
+  height: 55px;
+  font-size: x-large;
+  color: aliceblue;
+  background-color: darkslateblue;
+  border-radius: 5px;
+}
+
+.popup {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 150px;
+  width: 350px;
+  padding: 4rem;
+  text-align: center;
+  box-shadow: 0 0 0 75rem rgb(0 0 0 / 50%);
+}
+
+.popup.on {
+  display: none;
+}
+
+.no {
+  width: 200px;
+  height: 50px;
+  font-size: x-large;
+  background-color: salmon;
+}
