@@ -9,6 +9,7 @@ document.addEventListener('keydown', function (event) {
     $character.className = 'character correct';
     keys++;
     $character = $character.nextElementSibling;
+    $character.className = 'character current';
 
   }
 });
