@@ -1,0 +1,19 @@
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.character.current {
+  color: black;
+  border-bottom: 3px solid;
+  padding-bottom: 3px;
+}
+
+.character.correct {
+  color: #1ccd1f;
+}
+
+.character.wrong {
+  color: #f80707;
+}
