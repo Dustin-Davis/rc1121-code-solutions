@@ -4,9 +4,7 @@ const book1 = {
   libraryID: 3353
 };
 
-const { title } = book1;
-const { author } = book1;
-const { libraryID } = book1;
+const { title, author, libraryID } = book1;
 
 console.log(`The title of the book is ${title}, the author is ${author}, and the libary id is ${libraryID}`);
 
@@ -16,9 +14,7 @@ const book2 = {
   libraryID: 2345
 };
 
-const { title: title2 } = book2;
-const { author: author2 } = book2;
-const { libraryID: libraryID2 } = book2;
+const { title: title2, author: author2, libraryID: libraryID2 } = book2;
 
 console.log(`The title of the book is ${title2}, the author is ${author2}, and the libary id is ${libraryID2}`);
 
