@@ -1,0 +1,228 @@
+    1  git config --global user.name "Dustin-Davis"
+    2  git config --global user.email "drpookydavis@comcast.net"
+    3  git config --global --list
+    4  cd repos
+    5  cd rc1121-code-solutions
+    6  git switch javascript-carousel
+    7  git add javascript-carousel
+    8  git commit -m "completed javascript-carousel"
+    9  git push origin javascript-carousel
+   10  cd ~/repos
+   11  cd code-journal
+   12  cd ~/repos
+   13  cd rc1121-code-solutions
+   14  git switch master
+   15  git pull origin master
+   16  cd ~/repos
+   17  cd code-journal
+   18  cd repos
+   19  git clone git@github.com:Dustin-Davis/ajax-project.git
+   20  cd ajax-project
+   21  npm ci
+   22  cd repos
+   23  cd ajax-projects
+   24  cd ajax-project
+   25  git branch User can view the categories
+   26  git branch User-can-view-the-categories
+   27  git switch User-can-view-the-categories
+   28  cd repos
+   29  cd ajax-projection
+   30  cd ajax-project
+   31  git add index.html
+   32  git add css/styles.css
+   33  git add css/layout.css
+   34  git add js/main.js
+   35  git commit -m "display the data from the API on the page"
+   36  git add index.html
+   37  git add css/styles.css
+   38  git add css/layout.css
+   39  git add js/main.js
+   40  git commit -m "fixed some issues" 
+   41  git add index.html
+   42  git add css/styles.css
+   43  git add css/layout.css
+   44  git add js/main.js
+   45  git commit -m "User can view the categories" 
+   46  git push origin User-can-view-the-categories
+   47  cd repos
+   48  cd ajax-project
+   49  git add index.html
+   50  git add css/styles.css
+   51  git add css/layout.css
+   52  git add js/main.js
+   53  git commit -m "Fixed the capitals" 
+   54  git push origin User-can-view-the-categories
+   55  git add index.html
+   56  git add css/styles.css
+   57  git add css/layout.css
+   58  git add js/main.js
+   59  git commit -m "Fixed functions" 
+   60  git push origin User-can-view-the-categories
+   61  git switch master
+   62  git pull origin master
+   63  git branch User can view the details of the item they have clicked on
+   64  git branch User-can-view-the-details-of-the-item-they-have-clicked-on
+   65  git switch User-can-view-the-details-of-the-item-they-have-clicked-on
+   66  cd repos
+   67  cd ajax-project
+   68  cd repos
+   69  cd code-journal
+   70  git add index.html
+   71  git add main.js
+   72  git add js/main.js
+   73  git add js/data.js
+   74  git add css/styles.css
+   75  git add css/layout.css
+   76  git commit -m "user-can-edit-an-entry"
+   77  git push orign user-can-edit-an-entry
+   78  git branch --list
+   79  git switch master
+   80  git switch user-can-edit-an-entry
+   81  git push user-can-edit-an-entry
+   82  git push origin user-can-edit-an-entry
+   83  git add js/data.js
+   84  git add js/main.js
+   85  git commit -m "user-can-edit-an-entry"
+   86  git push origin user-can-edit-an-entry
+   87  cd repos
+   88  cd clone git@github.com:PaulGlorioso/week-planner.git
+   89  git clone git@github.com:PaulGlorioso/week-planner.git
+   90  git switch master
+   91  cd week-planner
+   92  npm ci
+   93  git pull origin master 
+   94  git add .
+   95  git commit -m "added select options" --no-verify
+   96  git push origin master
+   97  git pull origin master
+   98  git add .
+   99  git commit -m "fixed some issues" --no-verify
+  100  git push origin master
+  101  git pull origin master
+  102  git add .
+  103  git commit -m "added table" --no-verify
+  104  git push origin master
+  105  git pull origin master
+  106  git add . 
+  107  git commit -m "table stuff" --no-verify
+  108  git push origin master
+  109  git pull origin master 
+  110  git add . 
+  111  git commit -m "table stuff" --no-verify
+  112  git push origin master
+  113  cd repos
+  114  cd rc1121-code-solutions
+  115  git branch es6-const-let
+  116  git switch es6-const-let
+  117  git add es6-const-let
+  118  git commit -m "completed es6-const-let"
+  119  git push origin es6-const-let
+  120  git switch master
+  121  git pull origin master
+  122  git branch es6-template-literals
+  123  git switch es6-template-literals
+  124  git add es6-template-literals
+  125  git commit -m "completed es6-template-literals"
+  126  git push origin es6-template-literals
+  127  git switch master
+  128  git pull origin master
+  129  git branch es6-destructuring
+  130  git switch es6-destructuring
+  131  git add es6-destructuring
+  132  git commit -m "completed es6-destructuring"
+  133  git push origin es6-destructuring
+  134  git add es6-destructuring
+  135  git commit -m "fixed es6-destructuring"
+  136  git push origin es6-destructuring
+  137  git switch master
+  138  git pull origin master
+  139  git branch es6-arrow-functions
+  140  git switch es6-arrow-functions
+  141  git add es6-arrow-functions
+  142  git commit -m "completed es6-arrow-functions"
+  143  git push origin es6-arrow-functions
+  144  git switch master
+  145  git pull origin master
+  146  git branch command-line-basics
+  147  git switch master
+  148  git switch command-line-basics
+  149  git switch master
+  150  cd command-line-basics
+  151  pwd
+  152  git switch command-line-basics
+  153  pwd
+  154  man man
+  155  man cat
+  156  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  157  cat
+  158  cd repos
+  159  cd rc1121-code-solutions
+  160  cd command-line-basics
+  161  man man
+  162  man cat
+  163  cat laziness.txt
+  164  cat impatience.txt
+  165  cat hubris.txt
+  166  cat
+  167  cd repos
+  168  cd rc1121-code-solutions
+  169  cd command-line-basics
+  170  cat laziness.txt
+  171  cat impatience.txt
+  172  cat hubris.txt
+  173  cat cat laziness.txt impatience.txt hubris.txt 
+  174  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  175  cat three-virtues.txt
+  176  man ls
+  177  man ls -a
+  178  man ls -F
+  179  ls -a 
+  180  ls -F  
+  181  ls lfz-staff/
+  182  ls -aF lfz-staff
+  183  ls -aF lfz-staff > lfz-staff/contents.txt
+  184  cat lfz-staff/contents.txt
+  185  man pwd 
+  186  pwd
+  187  pwd > i-was-here.txt
+  188  ls
+  189  cat i-was-here.txt
+  190  man echo
+  191  echo 'Hello, World!'
+  192  echo 'Hello, World!' > hello.txt
+  193  ls
+  194  cat hello.txt
+  195  man touch 
+  196  touch tag-youre-it.txt
+  197  git branch --list
+  198  touch snoot/boop.txt
+  199  ls snoot/
+  200  man mkdir
+  201  mkdir parent
+  202  ls parent/
+  203  mkdir parent
+  204  ls parent/
+  205  mkdir -p 
+  206  mkdir -p parent/child/grandchild
+  207  touch .gitkeep parent/child/grandchild
+  208  ls -a 
+  209  ls -a parent/child/grandchild
+  210  touch parent/child/grandchild.gitkeep
+  211  ls -a parent/child/grandchild
+  212  man mv
+  213  mv pokiemans pokemon
+  214  ls
+  215  man rm
+  216  rm lol.txt
+  217  ls
+  218  rm -r 
+  219  rm -r kill-me/
+  220  ls
+  221  man cp
+  222  cp and-then.txt
+  223  cp and-then.txt no-and-then.txt
+  224  ls
+  225  cat and-then.txt no-and-then.txt
+  226  man history
+  227  history
+  228  history > command-history.txt
