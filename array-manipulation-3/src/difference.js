@@ -1,32 +1,19 @@
 /* exported difference */
 function difference(first, second) {
-  const symmetricDiff = {};
-  const res = [];
-  for (const word of first) {
-    if (word in symmetricDiff) {
-      delete symmetricDiff[word];
-    } else {
-      symmetricDiff[word] = true;
+  const difference = [];
+
+  for (const firstItem of first) {
+    if (!second.includes(firstItem)) {
+      difference.push(firstItem);
     }
   }
 
-  for (const word of second) {
-    if (word in symmetricDiff) {
-      delete symmetricDiff[word];
-    } else {
-      symmetricDiff[word] = true;
+  for (const secondItem of second) {
+    if (!first.includes(secondItem)) {
+      difference.push(secondItem);
     }
   }
 
-  for (const word of first) {
-    if (word in symmetricDiff) {
-      res.push(word);
-    }
-  }
-  for (const word of second) {
-    if (word in symmetricDiff) {
-      res.push(word);
-    }
-  }
-  return res;
+  return difference;
+
 }
