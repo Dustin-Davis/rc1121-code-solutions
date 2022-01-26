@@ -11,8 +11,7 @@ app.get('/api/notes', (req, res) => {
   for (const property in notes) {
     arr.push(notes[property]);
   }
-  res.json(arr);
-  res.sendStatus(200);
+  res.sendStatus(200).json(arr);
 });
 
 app.get('/api/notes/:id', (req, res) => {
@@ -22,7 +21,7 @@ app.get('/api/notes/:id', (req, res) => {
   } else if (!notes[id]) {
     res.status(404).json({ error: `can not find note with id ${id}` });
   } else {
-    res.status(200).json(notes[id]);
+    res.json(notes[id]);
   }
 });
 
