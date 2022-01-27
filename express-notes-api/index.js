@@ -54,6 +54,7 @@ app.delete('/api/notes/:id', (req, res) => {
     return;
   } else if (!notes[id]) {
     res.status(404).json({ error: `can not find note with id ${id}` });
+    return;
   }
   delete notes[req.params.id];
   const stringify = JSON.stringify(data, null, 2);
