@@ -1,8 +1,9 @@
 select "g"."name",
 count(*) as "howManyMovies"
-from "films" as "f"
-join "filmGenre" as "fg" using ("filmId")
+from "castMembers"
+join "films"  using ("filmId")
+join "actors" using ("actorId")
+join "filmGenre" using ("filmId")
 join "genres" as "g" using ("genreId")
-join "castMembers" as "cm" using ("filmId")
-where "actorId" = 178
+where "firstName" = 'Lisa' and "lastName" = 'Monroe'
 group by "genreId"
