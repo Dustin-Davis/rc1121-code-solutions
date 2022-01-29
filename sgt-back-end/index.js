@@ -35,7 +35,7 @@ app.post('/api/grades', (req, res) => {
   if (!body.name || !body.course || !body.score) {
     res.status(400).json({ error: 'Entry must contain "Name", "Course", and "Score"' });
     return;
-  } else if (!score || score < 0 || score > 100 || !Number.isInteger(score)) {
+  } else if (score > 100 || !Number.isInteger(score)) {
     res.status(400).json({ error: 'Invalid integer' });
     return;
   }
@@ -61,7 +61,7 @@ app.put('/api/grades/:gradeId', (req, res) => {
   const body = req.body;
   const id = Number(req.params.gradeId);
   const score = Number(req.body.score);
-  if (!id) {
+  if (!id || id <= 0 || !Number.isInteger(id)) {
     res.status(400).json({ error: 'Invalid Id' });
     return;
   } else if (!body.name || !body.course || !body.score) {
