@@ -1,0 +1,29 @@
+.cold {
+  background-color: purple;
+  color: black;
+}
+
+.cool {
+  background-color: rebeccapurple;
+  color: black;
+}
+
+.tepid {
+  background-color: lightcoral;
+  color: black;
+}
+
+.warm {
+  background-color: tomato;
+  color: black;
+}
+
+.hot {
+  background-color: yellow;
+  color: black;
+}
+
+.nuclear {
+  background-color: white;
+  color: black;
+}
