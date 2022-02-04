@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 class NewsLetterForm extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { value: ' ' };
+    this.state = { value: '' };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
@@ -15,7 +15,6 @@ class NewsLetterForm extends React.Component {
 
   handleSubmit(event) {
     console.log('state:', this.state);
-    alert('A email was submitted: ' + this.state.value);
     event.preventDefault();
   }
 
