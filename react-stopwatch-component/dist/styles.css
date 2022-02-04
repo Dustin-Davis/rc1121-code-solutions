@@ -1,0 +1,30 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  border-style: solid;
+  height: 100px;
+  width: 100px;
+}
+
+.number {
+  text-align: center;
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+.fa-pause {
+  margin-top: 1rem;
+}
+
+.fa-play {
+  margin-top: 1rem;
+}
