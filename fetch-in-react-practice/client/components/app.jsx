@@ -62,7 +62,7 @@ export default class App extends React.Component {
      * TIP: Be sure to SERIALIZE the updates in the body with JSON.stringify()
      * And specify the "Content-Type" header as "application/json"
      */
-    const copy = this.state.todos.map(object => Object.assign({}, object));
+    const copy = this.state.todos.map(todo => ({ ...todo }));
     for (let i = 0; i < copy.length; i++) {
       if (copy[i].todoId === todoId) {
         copy[i].isCompleted = !copy[i].isCompleted;
